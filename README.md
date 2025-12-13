@@ -1,7 +1,8 @@
 <h1>🚀 Google Ads Performance Analysis (SQL + Python)</h1>
 
-This project presents an end-to-end analysis of Google Ads performance data, aimed at understanding how advertising campaigns perform across devices, keyword intent, spend, clicks, leads, conversions, and revenue.
-The goal is to replicate a real-world marketing/data analyst workflow—evaluating campaign effectiveness, identifying high- and low-performing segments, uncovering cost inefficiencies, and highlighting areas where data-driven optimization can improve overall ROI.
+This project delivers an end-to-end analytical pipeline for Google Ads performance evaluation, examining campaign behavior across device types, keyword intent categories, cost metrics, user engagement (clicks & leads), conversion outcomes, and revenue generation.
+
+The objective is to mirror a production-level data analyst workflow, including data cleaning, feature engineering, SQL-based analysis, statistical exploration, and visualization. The analysis focuses on performance attribution, efficiency measurement (CPC, conversion rate, ROI), and identifying optimization opportunities to improve campaign profitability and decision-making.
 
 <h1>📂 What This Project Includes</h1>
 
