@@ -1,83 +1,152 @@
-📊 Google Ads Performance Analysis (SQL + Python)
-📌 Project Overview
+<h1>🚀 Google Ads Performance Analysis (SQL + Python)</h1>
 
-This project focuses on analyzing Google Ads campaign performance using SQL and Python.
-The goal is to extract meaningful business insights related to cost, clicks, conversions, revenue, devices, and keyword intent, similar to how a real marketing/data analyst works.
+This project is an end-to-end analysis of Google Ads performance data, focused on understanding how ads perform across devices, keyword intent, cost, clicks, leads, conversions, and revenue.
 
-The dataset represents ad-level performance data for a Data Analytics Course campaign.
+The objective is to simulate how a real marketing/data analyst evaluates ad campaigns to identify what works, what doesn’t, and where optimization is needed.
 
-🗂 Dataset Description
+<h1>📂 What This Project Includes</h1>
 
-Each row represents one ad’s performance with metrics related to user engagement and revenue.
+1. Data cleaning & preprocessing using Python (Pandas)
+2.Business-logic-driven handling of missing values
+3.Feature engineering (CPC, Conversion Rate, Keyword Category)
+4.Loading cleaned data into PostgreSQL
+5.40+ SQL queries covering:
+6.Campaign performance
+7.Device-wise analysis
+8.Keyword intent analysis
+9.Funnel metrics (Clicks → Leads → Conversions)
+10.Cost, revenue, and ROI insights
+11.High-level analytical SQL (subqueries, views, window functions)
 
-Key Columns
+📊 Dataset Overview
 
-Ad_ID – Unique ad identifier
+Each row represents one Google Ad’s performance.
 
-Campaign_Name – Campaign associated with the ad
+Key Metrics
 
-Clicks, Impressions, Leads, Conversions – Funnel metrics
+Clicks, Impressions – Engagement metrics
+
+Leads, Conversions – Funnel metrics
 
 Cost, Sale_Amount, CPC – Financial metrics
 
 Conversion_Rate – Conversions per click
 
-Ad_Date – Date when the ad ran
+Contextual Attributes
 
-Device, Location – User context
+Campaign_Name
 
-Keyword, Keyword_Category – Search intent analysis
+Device (Desktop / Mobile / Tablet)
+
+Location
+
+Keyword & Keyword_Category (intent-based)
+
+Ad_Date
 
 🧹 Data Cleaning & Feature Engineering
 
-The dataset was cleaned and prepared using Python (Pandas):
+The dataset was cleaned and prepared using Python (Pandas) with a strong focus on preserving business logic.
 
-Handled missing values using business-logic-driven imputation
+Key steps:
 
-Maintained relationships between interconnected columns (Clicks, Cost, CPC, Conversion Rate)
+Handled missing values without breaking relationships between columns
+
+Cleaned interconnected metrics in the correct dependency order
+(Clicks → Cost → CPC → Conversion Rate)
 
 Standardized date formats
 
-Created derived metrics:
+Created intent-based Keyword_Category
 
-CPC (Cost per Click)
+Recalculated derived metrics instead of blindly imputing them
 
-Keyword_Category (intent-based grouping)
-
-The cleaned dataset was then loaded into PostgreSQL for analysis.
+Cleaned data was then loaded into PostgreSQL for analysis.
 
 🛢 SQL Analysis (PostgreSQL)
 
-All analytical queries were executed in pgAdmin 4.
+All analysis was performed in pgAdmin 4.
 
-SQL Topics Covered
+SQL Concepts Used
 
-Aggregations (SUM, AVG, COUNT)
+GROUP BY, HAVING
 
-Grouping by device, campaign, keyword category
+Aggregate functions (SUM, AVG, COUNT)
 
-Funnel analysis (Clicks → Leads → Conversions)
+Funnel analysis queries
 
-Cost & revenue analysis
-
-ROI-focused queries
+Subqueries & comparison against averages
 
 Window functions (RANK)
 
-Performance comparison against averages
+SQL Views for reusable KPIs
 
-View creation for reusable KPIs
+Performance & ROI analysis
 
-Example Insights Generated
+💡 Key Insights Generated
 
-Total cost, sales, clicks, impressions
+Device-wise cost efficiency and conversion performance
 
-Device-wise CPC, sales, and conversion performance
+Keyword intent categories driving the highest revenue
 
-Keyword category performance (avg & total clicks, leads, conversions)
+Ads with high spend but poor conversion (optimization opportunities)
 
-Ads with high spend but low conversions
+Funnel drop-offs between clicks, leads, and conversions
 
-Best-performing devices and keyword intents
+Campaign-level cost vs revenue effectiveness
 
-SQL queries and outputs are saved for reproducibility.
+CPC and conversion trends across devices
+
+📈 Visualizations (Coming Soon)
+
+Planned visual analysis using:
+
+Matplotlib
+
+Seaborn
+
+Power BI
+
+Upcoming visuals will include:
+
+Funnel performance charts
+
+Device-wise ROI dashboards
+
+Keyword intent effectiveness
+
+Cost vs sales trends
+
+🛠 Tools & Technologies
+
+Python (Pandas)
+
+PostgreSQL
+
+pgAdmin 4
+
+SQL
+
+Power BI (planned)
+
+Matplotlib & Seaborn (planned)
+
+🎯 Skills Demonstrated
+
+SQL for real-world data analysis
+
+Business-oriented thinking
+
+Data cleaning with dependency-aware logic
+
+Funnel and performance analysis
+
+KPI creation and interpretation
+
+Clean project structuring and documentation
+
+📬 Author
+
+Vansh Chandan
+Aspiring Data Analyst
+SQL | Python | Power BI
