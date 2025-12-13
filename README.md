@@ -1,31 +1,83 @@
-📊 Google Ads Sales Analysis Project
-📁 Project Overview
+📊 Google Ads Performance Analysis (SQL + Python)
+📌 Project Overview
 
-This project analyzes Google Ads campaign performance using a real-world dataset.
-It includes end-to-end steps:
+This project focuses on analyzing Google Ads campaign performance using SQL and Python.
+The goal is to extract meaningful business insights related to cost, clicks, conversions, revenue, devices, and keyword intent, similar to how a real marketing/data analyst works.
 
-Data cleaning using Python (pandas)
+The dataset represents ad-level performance data for a Data Analytics Course campaign.
 
-Loading processed data into PostgreSQL
+🗂 Dataset Description
 
-Writing analytical SQL queries
+Each row represents one ad’s performance with metrics related to user engagement and revenue.
 
-Creating visualizations in Jupyter
+Key Columns
 
-Building Power BI dashboards
+Ad_ID – Unique ad identifier
 
-Preparing insights & reports
+Campaign_Name – Campaign associated with the ad
 
-The goal is to understand campaign performance, optimize ad spend, and derive business insights.
+Clicks, Impressions, Leads, Conversions – Funnel metrics
 
-**🎯 Goal of the Project
+Cost, Sale_Amount, CPC – Financial metrics
 
-To showcase end-to-end data analytics skills:
-Python → SQL → Visualization → BI → Insights
-This project is suitable for data analyst / business analyst portfolios.
+Conversion_Rate – Conversions per click
 
-📌 Status
+Ad_Date – Date when the ad ran
 
-✔️ Project initialized
-✔️ Raw dataset added
-🔄 Cleaning, SQL, and dashboards will be added step-by-step**
+Device, Location – User context
+
+Keyword, Keyword_Category – Search intent analysis
+
+🧹 Data Cleaning & Feature Engineering
+
+The dataset was cleaned and prepared using Python (Pandas):
+
+Handled missing values using business-logic-driven imputation
+
+Maintained relationships between interconnected columns (Clicks, Cost, CPC, Conversion Rate)
+
+Standardized date formats
+
+Created derived metrics:
+
+CPC (Cost per Click)
+
+Keyword_Category (intent-based grouping)
+
+The cleaned dataset was then loaded into PostgreSQL for analysis.
+
+🛢 SQL Analysis (PostgreSQL)
+
+All analytical queries were executed in pgAdmin 4.
+
+SQL Topics Covered
+
+Aggregations (SUM, AVG, COUNT)
+
+Grouping by device, campaign, keyword category
+
+Funnel analysis (Clicks → Leads → Conversions)
+
+Cost & revenue analysis
+
+ROI-focused queries
+
+Window functions (RANK)
+
+Performance comparison against averages
+
+View creation for reusable KPIs
+
+Example Insights Generated
+
+Total cost, sales, clicks, impressions
+
+Device-wise CPC, sales, and conversion performance
+
+Keyword category performance (avg & total clicks, leads, conversions)
+
+Ads with high spend but low conversions
+
+Best-performing devices and keyword intents
+
+SQL queries and outputs are saved for reproducibility.
