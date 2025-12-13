@@ -20,7 +20,7 @@ The objective is to simulate how a real marketing/data analyst evaluates ad camp
 
 <h1>📊 Dataset Overview</h1>
 
-- Each row represents one Google Ad’s performance.
+Each row represents one Google Ad’s performance.
 - Key Metrics
 - Clicks, Impressions – Engagement metrics
 - Leads, Conversions – Funnel metrics
