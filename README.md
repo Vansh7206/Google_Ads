@@ -39,8 +39,8 @@ The dataset was cleaned and prepared using Python (Pandas) with a strong focus o
 
 <h4>Key steps:</h4>
 
-1.Handled missing values without breaking relationships between columns
-2.Cleaned interconnected metrics in the correct dependency order
+1. Handled missing values without breaking relationships between columns
+2. Cleaned interconnected metrics in the correct dependency order
 (Clicks → Cost → CPC → Conversion Rate)
 3.Standardized date formats
 4.Created intent-based Keyword_Category
