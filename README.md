@@ -10,7 +10,7 @@ The objective is to simulate how a real marketing/data analyst evaluates ad camp
 - Business-logic-driven handling of missing values
 - Feature engineering (CPC, Conversion Rate, Keyword Category)
 - Loading cleaned data into PostgreSQL
-- 40+ SQL queries covering:
+- 20 SQL queries covering:
 - Campaign performance
 - Device-wise analysis
 - Keyword intent analysis
