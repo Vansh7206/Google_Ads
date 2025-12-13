@@ -42,10 +42,10 @@ The dataset was cleaned and prepared using Python (Pandas) with a strong focus o
 1. Handled missing values without breaking relationships between columns
 2. Cleaned interconnected metrics in the correct dependency order
 (Clicks → Cost → CPC → Conversion Rate)
-3.Standardized date formats
-4.Created intent-based Keyword_Category
-5.Recalculated derived metrics instead of blindly imputing them
-6.Cleaned data was then loaded into PostgreSQL for analysis.
+3. Standardized date formats
+4. Created intent-based Keyword_Category
+5. Recalculated derived metrics instead of blindly imputing them
+6. Cleaned data was then loaded into PostgreSQL for analysis.
 
 <h1>🛢 SQL Analysis (PostgreSQL)</h1>
 
