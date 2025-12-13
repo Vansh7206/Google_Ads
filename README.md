@@ -6,27 +6,17 @@ The objective is to simulate how a real marketing/data analyst evaluates ad camp
 
 <h1>📂 What This Project Includes</h1>
 
-1. Data cleaning & preprocessing using Python (Pandas)
-
-2.Business-logic-driven handling of missing values
-
-3.Feature engineering (CPC, Conversion Rate, Keyword Category)
-
-4.Loading cleaned data into PostgreSQL
-
-5.40+ SQL queries covering:
-
-6.Campaign performance
-
-7.Device-wise analysis
-
-8.Keyword intent analysis
-
-9.Funnel metrics (Clicks → Leads → Conversions)
-
-10.Cost, revenue, and ROI insights
-
-11.High-level analytical SQL (subqueries, views, window functions)
+- Data cleaning & preprocessing using Python (Pandas)
+- Business-logic-driven handling of missing values
+- Feature engineering (CPC, Conversion Rate, Keyword Category)
+- Loading cleaned data into PostgreSQL
+- 40+ SQL queries covering:
+- Campaign performance
+- Device-wise analysis
+- Keyword intent analysis
+- Funnel metrics (Clicks → Leads → Conversions)
+- Cost, revenue, and ROI insights
+- High-level analytical SQL (subqueries, views, window functions)
 
 📊 Dataset Overview
 
