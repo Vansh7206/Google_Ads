@@ -69,11 +69,34 @@ All analysis was performed in pgAdmin 4.
 - Campaign-level cost vs revenue effectiveness
 - CPC and conversion trends across devices
 
-<h1>📈 Visualizations (Coming Soon)</h1>
+<h1>📊 Visualizations</h1>
 
-Planned visual analysis using:
+The project includes comprehensive data visualizations created using Matplotlib and Seaborn to explore trends, performance, and relationships within Google Ads campaign data.
+
+<h3>📌 Visual Analysis Implemented Using:</h3>
+
 - Matplotlib
 - Seaborn
+
+<h4>📈 Visualizations Covered:</h4>
+
+Funnel Performance Analysis
+1. Visualizing the drop-off from impressions → clicks → leads → conversions to understand campaign efficiency.
+2. Device-wise Performance Analysis
+Comparing cost, clicks, conversions, and ROI across devices (Mobile, Desktop, Tablet).
+3. Keyword Intent Effectiveness
+Analyzing how different keyword intents (Informational, Commercial, Transactional) perform in terms of conversions and revenue.
+4. Cost vs Sales / Revenue Trends
+Scatter plots and trend analysis to evaluate how advertising spend impacts sales and revenue.
+5. Distribution Analysis
+Box plots and violin plots to understand spread and variability in cost, conversions, and revenue.
+6. Correlation Heatmaps
+Identifying relationships between impressions, clicks, cost, leads, conversions, conversion rate, and sales amount.
+
+These visualizations help translate raw campaign data into actionable insights, similar to how a real-world data analyst evaluates marketing performance.
+
+<h1>📈 Visualizations (Coming Soon)</h1>
+
 - Power BI
 - Upcoming visuals will include:
 - Funnel performance charts
