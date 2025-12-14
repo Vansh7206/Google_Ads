@@ -93,7 +93,10 @@ Identifying relationships between impressions, clicks, cost, leads, conversions,
 These visualizations help translate raw campaign data into actionable insights, similar to how a real-world data analyst evaluates marketing performance.
 
 <h3>POWER BI Dashboard</h3>
-![Google Ads Dashboard](dashboards/dashboard.png)
+<p align="center">
+  <img src="dashboards/dashboard.png" width="900"/>
+</p>
+
 
 
 <h1>🛠 Tools & Technologies</h1>
