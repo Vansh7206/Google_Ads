@@ -94,9 +94,8 @@ These visualizations help translate raw campaign data into actionable insights, 
 
 <h3>POWER BI Dashboard</h3>
 <p align="center">
-  <img src="dashboards/dashboard.png" width="900"/>
+  <img src="dashboards/Dashboard.png" width="900"/>
 </p>
-
 
 
 <h1>🛠 Tools & Technologies</h1>
