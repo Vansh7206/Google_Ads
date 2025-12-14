@@ -120,5 +120,5 @@ These visualizations help translate raw campaign data into actionable insights, 
 
 - Vansh Chandan
 
-Aspiring Data Analyst
+Aspiring Data Analyst |
 SQL | Python | Power BI
