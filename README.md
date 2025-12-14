@@ -118,8 +118,7 @@ These visualizations help translate raw campaign data into actionable insights, 
 
 <h1>📬 Author</h1>
 
-Vansh Chandan
+- Vansh Chandan
 
 Aspiring Data Analyst
-
 SQL | Python | Power BI
