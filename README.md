@@ -14,7 +14,6 @@ The objective is to mirror a production-level data analyst workflow, including d
 - Campaign performance
 - Device-wise analysis
 - Keyword intent analysis
-- Funnel metrics (Clicks → Leads → Conversions)
 - Cost, revenue, and ROI insights
 - High-level analytical SQL (subqueries, views, window functions)
 
@@ -23,7 +22,6 @@ The objective is to mirror a production-level data analyst workflow, including d
 Each row represents one Google Ad’s performance.
 - Key Metrics
 - Clicks, Impressions – Engagement metrics
-- Leads, Conversions – Funnel metrics
 - Cost, Sale_Amount, CPC – Financial metrics
 - Conversion_Rate – Conversions per click
 - Contextual Attributes
@@ -55,7 +53,6 @@ All analysis was performed in pgAdmin 4.
 
 - GROUP BY, HAVING
 - Aggregate functions (SUM, AVG, COUNT)
-- Funnel analysis queries
 - Subqueries & comparison against averages
 - Window functions (RANK)
 - Performance & ROI analysis
@@ -95,14 +92,9 @@ Identifying relationships between impressions, clicks, cost, leads, conversions,
 
 These visualizations help translate raw campaign data into actionable insights, similar to how a real-world data analyst evaluates marketing performance.
 
-<h1>📈 Visualizations (Coming Soon)</h1>
+<h3>POWER BI Dashboard</h3>
+![alt text](dashboards/image.png)
 
-- Power BI
-- Upcoming visuals will include:
-- Funnel performance charts
-- Device-wise ROI dashboards
-- Keyword intent effectiveness
-- Cost vs sales trends
 
 <h1>🛠 Tools & Technologies</h1>
 
@@ -127,4 +119,5 @@ These visualizations help translate raw campaign data into actionable insights, 
 Vansh Chandan
 
 Aspiring Data Analyst
+
 SQL | Python | Power BI
