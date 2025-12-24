@@ -10,7 +10,8 @@ st.set_page_config(page_title='Marketing Prediction', page_icon='📈', layout='
 st.title('📊 Marketing Prediction')
 st.write('A Machine Learning Model made for Educational Purpose')
 
-df = pd.read_csv(r'C:\Users\vchan\OneDrive\Desktop\Google_Ads\marketing_prediction_app\Clean_data.csv')
+df = pd.read_csv("../data/new/Clean_data.csv")
+
 
 st.subheader("Dataset Preview")
 st.dataframe(df, use_container_width=True)
