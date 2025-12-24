@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from pathlib import Path
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
@@ -10,8 +11,10 @@ st.set_page_config(page_title='Marketing Prediction', page_icon='📈', layout='
 st.title('📊 Marketing Prediction')
 st.write('A Machine Learning Model made for Educational Purpose')
 
-df = pd.read_csv("../data/new/Clean_data.csv")
+BASE_DIR = Path(__file__).resolve().parents[1]
+DATA_PATH = BASE_DIR / "data" / "new" / "Clean_data.csv"
 
+df = pd.read_csv(DATA_PATH)
 
 st.subheader("Dataset Preview")
 st.dataframe(df, use_container_width=True)
