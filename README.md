@@ -97,6 +97,25 @@ These visualizations help translate raw campaign data into actionable insights, 
   <img src="dashboards/Dashboard.png" width="900"/>
 </p>
 
+<h3>📊 Marketing Prediction (ML App)</h3>
+
+An end-to-end Machine Learning web application that predicts marketing sales based on campaign performance metrics such as clicks, impressions, leads, conversions, device type, location, and cost.
+
+<h4>🔗 Live App:</h4>
+https://appads-tngwznwcs3tjgv4eiael47.streamlit.app/
+
+<h4>Tech Stack </h4>
+
+- Python 
+- Pandas 
+- Scikit-learn 
+- Streamlit
+<h4>Highlights</h4> 
+
+- Data preprocessing
+- Regression model 
+- Interactive UI 
+- Cloud deployment
 
 <h1>🛠 Tools & Technologies</h1>
 
@@ -106,6 +125,7 @@ These visualizations help translate raw campaign data into actionable insights, 
 - SQL
 - Power BI (planned)
 - Matplotlib & Seaborn (planned)
+- Scikit Learn
 
 <h1>🎯 Skills Demonstrated</h1>
 
