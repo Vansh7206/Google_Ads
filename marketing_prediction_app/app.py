@@ -40,12 +40,12 @@ st.divider()
 st.subheader('📌 Enter the following Details')
 
 device = st.selectbox("Select Targeted Device", ['Desktop', 'Mobile', 'Tablet'])
-clicks = st.number_input('Enter number of clicks', min_value=0, value=100)
-impression = st.number_input('Enter number of impressions', min_value=0, value=100)
-leads = st.number_input('Enter number of leads', min_value=0, value=50)
-conversion = st.number_input('Enter number of conversions', min_value=0, value=20)
+clicks = st.number_input('Enter number of clicks', min_value=1)
+impression = st.number_input('Enter number of impressions', min_value=1)
+leads = st.number_input('Enter number of leads', min_value=1)
+conversion = st.number_input('Enter number of conversions', min_value=1)
 location = st.selectbox("Select Location", le.classes_.tolist())
-cost = st.number_input('Enter Campaign Cost', min_value=0, value=500)
+cost = st.number_input('Enter Campaign Cost', min_value=1)
 
 dl_sel = 1 if device == 'Desktop' else 0
 ml_sel = 1 if device == 'Mobile' else 0
